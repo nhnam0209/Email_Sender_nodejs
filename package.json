@@ -1,0 +1,22 @@
+{
+  "name": "email-sender-nodejs",
+  "version": "1.0.0",
+  "description": "This is mini project which send direct email to user",
+  "main": "index.js",
+  "scripts": {
+    "start": "call .env && node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhnam0209/Email_Sender_nodejs.git"
+  },
+  "author": "nhnam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhnam0209/Email_Sender_nodejs/issues"
+  },
+  "homepage": "https://github.com/nhnam0209/Email_Sender_nodejs#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.1"
+  }
+}
